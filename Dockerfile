@@ -15,6 +15,7 @@ EXPOSE 80
 
 # Define environment variable
 ENV FLASK_APP=app.py
+ENV PYTHONPATH /app
 
 # Set the entrypoint
 ENTRYPOINT ["./entrypoint.sh"]

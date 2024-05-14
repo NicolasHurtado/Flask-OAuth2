@@ -2,9 +2,8 @@ import unittest
 import sys
 sys.path.insert(0, '.')
 from app import create_app, create_db, app, db
-from unittest.mock import patch, MagicMock, Mock
+from unittest.mock import patch, Mock
 from src.services.auth_services import flow
-import json
 
 class BaseTestCase(unittest.TestCase):
     def setUp(self):
