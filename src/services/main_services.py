@@ -10,7 +10,7 @@ def login_required():
 
 @main.route("/")
 def index():
-    return "Hello World <a href='/login'><button>Login</button></a>"
+    return "Loggin with Google <a href='/login'><button>Login</button></a>"
 
 @main.route("/protected_area")
 @login_is_required
