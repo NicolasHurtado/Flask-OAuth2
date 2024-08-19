@@ -23,21 +23,29 @@ To run the application, use the following command:
 
 
 ## Usage
+- The application will start in development mode at http://127.0.0.1:5000/
 
 ### 1. **Home - /**
 Homepage with a login button.
+![image](https://github.com/user-attachments/assets/263a8156-f85d-4f12-bf68-83cf1263901b)
+
 
 
 ### 2. **Login - /login**
 Redirects the user to Google OAuth2 login.
+![image](https://github.com/user-attachments/assets/47992fdb-257b-4a21-bb3a-37537109657e)
+
 
 
 ### 3. **Protected area - /protected_area**
 A protected route that displays the user's Google profile information.
+![image](https://github.com/user-attachments/assets/6d7e1307-8fe9-41eb-8a89-b47d56223bec)
 
 
 ### 4. **List users -/users**
 Lists all users stored in the database. Requires authentication
+![image](https://github.com/user-attachments/assets/bd8f273d-68a1-425e-a221-21ea7264dd9c)
+
 
 
 ### 5. **Logout**
